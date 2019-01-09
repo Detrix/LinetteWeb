@@ -1,0 +1,90 @@
+
+/***************************************Begin*****************************************/
+
+Создать новую
+
+
+…or create a new repository on the command line
+echo "# LinetteWeb" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Detrix/LinetteWeb.git
+git push -u origin master
+
+
+***************************************************************************************
+
+
+Залить на Гит
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/Detrix/LinetteWeb.git
+git push -u origin master
+
+
+/***********************************End Begin*****************************************/
+
+
+
+
+
+/***************************************Add changes*****************************************/
+
+git add --all   (or git add .) //добавление всех файлов в репозиторий
+
+git status // проверка статуса файлов
+
+git commit -m "What changes done..." //отправка коммита(комментария)
+
+git status //проверка статуса файлов
+
+git branch new_style //создание новой ветки
+
+git checkout new_style //переключение на новую ветку
+
+git branch // проверка в какой ветке
+
+git status //проверка статуса файлов
+
+git add style.css //добавление одного файла
+
+git commit -m "Added green BG" //отправка коммита(комментария)
+
+git checkout master  //переключились на ветку мастера
+
+git log --graph --all --decorate --oneline //выводит все коммиты в одну строку
+
+git push -u origin master //Добавление в репозиторий на хабе
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
